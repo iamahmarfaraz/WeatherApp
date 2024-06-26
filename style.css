@@ -379,6 +379,28 @@ h1 {
 
 @media screen and (min-width: 176px) and (max-width: 575.98px) {
 
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        color: var(--colorDark1);
+        /* background-color: #D9AFD9; */
+        /* background-image: linear-gradient(to left, #D9AFD9 0%, #97D9E1 100%); */
+        background-image: url('PNG/body-bg-mob.jpg');
+        /* background-repeat: no-repeat; */
+        object-fit: cover;
+    
+        overflow: hidden;
+    }
+
+    h1{
+        text-shadow: 4px 4px 8px rgb(1, 11, 29);
+        background-image: url('PNG/heading-bg.jpg');
+        object-fit: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: default;
+    }
+
     .user-info-container{
         display:none;
     }
