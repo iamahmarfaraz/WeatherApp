@@ -393,7 +393,7 @@ h1 {
     }
 
     h1{
-        text-shadow: 4px 4px 8px rgb(246, 217, 209);
+       text-shadow: 4px 4px 8px rgb(201, 135, 117);
         background-image: url('PNG/heading-bg.jpg');
         object-fit: cover;
         -webkit-background-clip: text;
